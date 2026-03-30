@@ -17,8 +17,6 @@ A robust backend for a social platform designed to manage user interactions, con
 * **Environment Management:** Python-dotenv for secure configuration
 
 ## 🚀 Getting Started
-
-1. Configure your `.env` file based on `.env.example`.
-2. Run the services using Docker:
+1. Run migrations:
    ```bash
-   docker-compose up --build
+   python manage.py migrate
